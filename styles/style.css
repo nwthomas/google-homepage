@@ -1,0 +1,129 @@
+/*------- body styles -------*/
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+/*------- navbar header styles -------*/
+
+.grid-navbar {
+    display: grid;
+    grid-template-columns: 40px 60px minmax(150px, 3fr) 50px 50px 60px 72px;
+    grid-template-rows: 1fr;
+    padding: 15px 15px;
+}
+
+.nav {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+.google-settings {
+    margin-top: -13px;
+}
+
+/*------- google logo -------*/
+
+.google-logo {
+    margin: 0 auto;
+    align-content: center;
+    width: auto;
+    margin-top: 128px;
+}
+
+.google-logo img {
+    display: block;
+    margin: 0 auto;
+}
+
+/*------- search bar -------*/
+
+.search-bar {
+    height: 100px;
+    width: auto;
+    margin-left: 10px;
+}
+
+#input {
+    border: 1px solid;
+    border-radius: 2px;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+    border-color: #eee #eee #ccc #eee;
+    height: 42px;
+    width: 584px;
+    display: block;
+    margin: 26px auto;
+    outline: 0;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+/*------- search buttons styles -------*/
+
+.buttons {
+    text-align: center;
+    width: auto;
+    margin: -24px auto;
+    font-weight: bold
+}
+
+.buttons input {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    height: 37px;
+    width: auto;
+    padding: 0 16px;
+    margin: 0 2px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    border-radius: 2px;
+    font-weight: bold
+}
+
+.buttons input[type="button"]:hover {
+    color: #222;
+    background: #f1f1f1;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border-radius: 2px;
+}
+
+/*------- footer styles -------*/
+
+.footer {
+    display: grid;
+    line-height: 10px;
+    grid-template-columns: 80px 80px minmax(150px, 1600px) 50px 50px 60px;
+    grid-template-rows: 1fr;
+    padding: 15px 15px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    margin-top: 1fr;
+    bottom: 0;
+    position: absolute;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.foot {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+/*------- link styles -------*/
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: #666;
+    text-decoration: none;
+}
